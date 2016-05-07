@@ -1,6 +1,0 @@
-﻿INSERT INTO [dbo].[Escuela] ([Escuela_Id], [Nombre_Escuela]) VALUES (1, N'Universidad Autonoma  del Estado de Hidalgo')
-INSERT INTO [dbo].[Escuela] ([Escuela_Id], [Nombre_Escuela]) VALUES (2, N'Universidad del Estado de Mexico')
-INSERT INTO [dbo].[Escuela] ([Escuela_Id], [Nombre_Escuela]) VALUES (3, N'Universidad Autonoma del Estado de Morelos')
-INSERT INTO [dbo].[Escuela] ([Escuela_Id], [Nombre_Escuela]) VALUES (4, N'Universidad Autonoma del Estado de Mexico')
-INSERT INTO [dbo].[Escuela] ([Escuela_Id], [Nombre_Escuela]) VALUES (5, N'Universidad del Bicentenario')
-INSERT INTO [dbo].[Escuela] ([Escuela_Id], [Nombre_Escuela]) VALUES (6, N'Universidad Politecnica de Tecamac')
