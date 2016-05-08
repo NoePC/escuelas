@@ -150,6 +150,7 @@
     <Content Include="Images\Mesa_5T_03.png" />
     <Content Include="Images\Mesa_6T_03.png" />
     <Content Include="Images\Mesa_6T_07.png" />
+    <Content Include="Images\SEP1.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -162,6 +163,7 @@
       <DependentUpon>Filtro.edmx</DependentUpon>
     </Content>
     <None Include="Properties\PublishProfiles\EscuelaTransparente20160503092818.pubxml" />
+    <Content Include="scripts\bootstrap.js" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <EmbeddedResource Include="Resources\OpenSans-Bold.ttf" />
     <EmbeddedResource Include="Resources\OpenSans-BoldItalic.ttf" />
@@ -174,6 +176,8 @@
     <EmbeddedResource Include="Resources\OpenSans-Semibold.ttf" />
     <EmbeddedResource Include="Resources\OpenSans-SemiboldItalic.ttf" />
     <None Include="Properties\PublishProfiles\SEPET - Web Deploy.pubxml" />
+    <Content Include="Site1.Master" />
+    <Content Include="Styles\bootstrap.min" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -188,9 +192,12 @@
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="scripts\filtro.js" />
     <Content Include="scripts\jquery-1.11.1.min.js" />
+    <Content Include="Styles\boostrap.css" />
     <Content Include="Styles\filtro.css" />
     <Content Include="Styles\inicio.css" />
     <Content Include="Styles\Propuesta_Escuela_v8.css" />
+    <Content Include="Views\Header.aspx" />
+    <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -231,6 +238,27 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Header.aspx.cs">
+      <DependentUpon>Header.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Header.aspx.designer.cs">
+      <DependentUpon>Header.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

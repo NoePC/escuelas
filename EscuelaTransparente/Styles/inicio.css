@@ -1,71 +1,164 @@
-﻿body{
+﻿body {
     margin: 0px;
     padding: 0px;
-    font-family:'Open Sans';
+    font-family: 'Open Sans';
+    height: 100%;
 }
-#toolbar{
-    width:100%;
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#header {
+    background: #ededed;
+    padding: 10px;
+}
+
+#content {
+    padding-bottom: 60%; /* Height of the footer element */
+}
+
+#footer {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* background-color:cadetblue; */
+}
+
+#toolbar {
+    width: 100%;
     height: 60px;
-    background-color:#393B3D;
+    background-color: #393B3D;
     margin: 0px;
     padding: 0px;
 }
 
-ul{
-    text-align:right;
+#redes {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
 }
 
-li{
-    text-decoration:none;
-    list-style:none;
-    float:left;
+#panelFooter {
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: 'Berlin Sans FB';
 }
 
-li > a{
-    color:white;
+p.groove {
+    border-style: groove;
+    border-width: 1px;
+    text-align: center;
 }
 
-li a{
-    display: inline;
-    float:left;
-    margin-right:30px;
+ul {
+    text-align: right;
+}
+
+    ul.centrado {
+        text-align: center;
+        list-style-position: inside;
+        padding: 0;
+        border-left: solid 1px;
+    }
+
+li {
     text-decoration: none;
+    list-style: none;
+    float: left;
+    color: white;
 }
 
-.txtBus{
-    float:right;
-    border-radius:7px;
-    border-color:white;
+    li.pie {
+        text-align: center;
+        list-style-position: inside;
+        padding: 2px;
+        border-left: solid 1px;
+        color: white;
+    }
+
+    li.Circulo {
+        padding: 20px 60px 20px 60px;
+        color: black;
+    }
+
+    li.numCir {
+        padding: 20px 60px 20px 60px;
+        color: black;
+        list-style-type:decimal;
+    }
+
+
+
+    li > a {
+        color: white;
+    }
+
+    li a {
+        display: inline;
+        float: left;
+        margin-right: 30px;
+        text-decoration: none;
+    }
+
+.txtBus {
+    float: right;
+    border-radius: 7px;
+    border-color: white;
 }
 
-.txtbuscar{
-    margin-left:500px;
-    height:60px;
-    text-align:center;
-    font-size:30px;   
+.txtbuscar {
+    margin-left: 500px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
 }
 
 
-.imgbuscar{
-    width:64px;
-    height:52px;
+.imgbuscar {
+    width: 64px;
+    height: 52px;
 }
 
-.btnbusavan{
-    border-radius:7px;
-    color:black;
+.btnbusavan {
+    border-radius: 7px;
+    color: black;
     width: 300px;
     height: 50px;
-    margin-left:830px;
-    background-color:white;
-    border-color:black;
+    margin-left: 830px;
+    background-color: white;
+    border-color: black;
 }
 
-#divtabla{
-
+#divtabla {
 }
 
-.txtcontent{
-    background-color:red;
+.txtcontent {
+    background-color: red;
     width: 100%;
+}
+
+.imgSEP {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+    width: 280px;
+}
+
+#ligasFooter {
+    background-color: #0c89cc;
+    width: 100%;
+    text-align: center;
+    font-family: Cambria;
+    width: 100%;
+    height: 60px;
 }
