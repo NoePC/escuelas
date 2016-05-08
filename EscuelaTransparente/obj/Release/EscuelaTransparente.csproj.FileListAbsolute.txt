@@ -37,3 +37,42 @@ C:\Users\Sergio\Documents\Visual Studio 2015\Projects\Nueva carpeta\EscuelaTrans
 C:\Users\Sergio\Documents\Visual Studio 2015\Projects\Nueva carpeta\EscuelaTransparente\EscuelaTransparente\obj\Release\EscuelaTransparente.dll
 C:\Users\Sergio\Documents\Visual Studio 2015\Projects\Nueva carpeta\EscuelaTransparente\EscuelaTransparente\obj\Release\EscuelaTransparente.pdb
 C:\Users\Sergio\Documents\Visual Studio 2015\Projects\Nueva carpeta\EscuelaTransparente\EscuelaTransparente\obj\Release\EscuelaTransparente.csprojResolveAssemblyReference.cache
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\ApplicationInsights.config
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\roslyn\csc.exe
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\roslyn\vbc.exe
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\roslyn\VBCSCompiler.exe
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\EscuelaTransparente.dll.config
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\EscuelaTransparente.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\EscuelaTransparente.pdb
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\EntityFramework.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\EntityFramework.SqlServer.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\Microsoft.AI.Web.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\Microsoft.ApplicationInsights.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\EntityFramework.xml
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\EntityFramework.SqlServer.xml
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\Microsoft.AI.Web.xml
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\Microsoft.ApplicationInsights.xml
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\obj\Release\EscuelaTransparente.csprojResolveAssemblyReference.cache
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\obj\Release\EscuelaTransparente.Properties.Resources.resources
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\obj\Release\EscuelaTransparente.csproj.GenerateResource.Cache
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\obj\Release\EscuelaTransparente.dll
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\obj\Release\EscuelaTransparente.pdb

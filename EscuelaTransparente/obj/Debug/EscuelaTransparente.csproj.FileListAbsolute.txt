@@ -108,6 +108,7 @@ C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\obj\Debug\Escuel
 C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\obj\Debug\EscuelaTransparente.csproj.GenerateResource.Cache
 C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\obj\Debug\EscuelaTransparente.dll
 C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\obj\Debug\EscuelaTransparente.pdb
+C:\Users\AMD-A4\Desktop\EscuelaTransparente\EscuelaTransparente\obj\Debug\EscuelaTransparente.csprojResolveAssemblyReference.cache
 C:\Users\Michard\Downloads\EscuelaTransparente\EscuelaTransparente\EscuelaTransparente\bin\ApplicationInsights.config
 C:\Users\Michard\Downloads\EscuelaTransparente\EscuelaTransparente\EscuelaTransparente\bin\roslyn\csc.exe
 C:\Users\Michard\Downloads\EscuelaTransparente\EscuelaTransparente\EscuelaTransparente\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll

@@ -1,71 +1,230 @@
-﻿body{
+﻿body {
+    width: 100%;
+    height: 100%;
     margin: 0px;
     padding: 0px;
     font-family:'Open Sans';
 }
-#toolbar{
-    width:100%;
-    height: 60px;
-    background-color:#393B3D;
-    margin: 0px;
-    padding: 0px;
+
+#menu{
+    background-color: #32383B;
+    width:100%
+}
+
+#lmenu > li{
+    text-decoration: none;
+    float:left;
+    margin-left: 3%;
+    color:white;
+    font-family: 'Open Sans';
+    list-style:none;
+    list-style-type:none;
+
 }
 
 ul{
+    text-decoration:none;
+}
+
+#lmenu{
+    width:41%;
+    height:auto;
+    position:relative;
+    float: right;
+    bottom: 5px;
+}
+
+#txtMBuscarEscuela {
+    height: 13px;
+    width: 163px;
+    float: right;
+    top: 11px;
+    left: 731px;
+    background-image: url('../Images/Mesa_1T_36.png');
+    background-color: #32383B;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    border: 3px solid;
+    border-color: white;
+    border-radius:7px;
+    color:white;
     text-align:right;
 }
 
-li{
-    text-decoration:none;
-    list-style:none;
-    float:left;
+.footer{
+    position:relative;
+    bottom:0px;
+    width:100%;
 }
 
-li > a{
-    color:white;
-}
-
-li a{
-    display: inline;
-    float:left;
-    margin-right:30px;
-    text-decoration: none;
-}
-
-.txtBus{
-    float:right;
-    border-radius:7px;
-    border-color:white;
-}
-
-.txtbuscar{
-    margin-left:500px;
-    height:60px;
+.top-bar{
+    color:#808080;
     text-align:center;
-    font-size:30px;   
+    font-size:10px;
+    border:2px solid #928f8f;
+    border-right:none;
+    border-left:none;   
+}
+
+.img-sep{
+    text-align:center;
+}
+
+.bottom-bar{
+    background-color:#327FB6;
+    width:100%;
+    height:2.5em;
+    color:#fff;
+}
+
+.labels{
+    text-align:center;
+    margin-top:10px;
+    margin: auto;
+    width:67%;
+    height:100%;
+    font-size:13px;
+}
+
+#box{
+    background-color:black;    
+    width:100%;
+    height: 3em;
+    color:white;  
+}
+
+#amenu{
+    width:100%;
+    margin: auto;
+    overflow:hidden;
+}
+
+#left{
+    float:left;
+    margin-left:3em;
+    margin-bottom:10em;
+}
+
+#right{
+    float:right;
+    margin-right:.5em;
+    margin-bottom:10em;
+}
+
+#rightI{
+    float:right;
+    margin-right:4.1em;
+}
+
+#img{
+    text-align:center;
+}
+
+#img2{
+    text-align:center;
+    margin-right: 50px;
+}
+
+#img2 > img{
+    margin-left:50px;
+}
+
+#textos{    
+    margin-left:150px;
+}
+
+#lbl1{
+    margin-left:120px;
+}
+
+#lbl2{
+    margin-left:150px;
+}
+
+#lbl3{
+    margin-left:150px;
+}
+
+#lbl4{
+    margin-left:135px;
+}
+
+#quees{
+    width:65%;
+    position:relative;
+    left:230px;
+    text-align:justify;       
+}
+
+#doble{
+    left:230px;
+    position:relative;    
+    width:72%;
+    height:auto;
+}
+
+#texto{
+    position:absolute;
+    width:50%;
+}
+
+#video{
+    position:relative;
+    width:50%;
+    left:50%;
+}
+
+#doble{
+    left:230px;
+    position:relative;    
+    width:72%;
+    height:auto;
+}
+
+#texto{
+    position:absolute;
+    width:50%;
+}
+
+.txtPropiedades{
+    width:300px;
+    height:22px;
+    border:solid 1px;
+}
+
+#formu{
+    width:50%;
+    text-align:left;
+    margin-left:400px;
+}
+
+#formulario{
+    width:50%;
+    
+    position:relative;
+}
+
+#checks{
+    width:50%;
+    position: absolute;
+        
+    margin-left:130%;
+    top:60px;   
+}
+
+#resultados {
+    width: 40%;
+    height:10%;
+    float: left;    
+    margin-left:220px;
+}
+
+#ordenar{
+    width:40%;
+    height:10%;
+    float:right;        
 }
 
 
-.imgbuscar{
-    width:64px;
-    height:52px;
-}
 
-.btnbusavan{
-    border-radius:7px;
-    color:black;
-    width: 300px;
-    height: 50px;
-    margin-left:830px;
-    background-color:white;
-    border-color:black;
-}
 
-#divtabla{
-
-}
-
-.txtcontent{
-    background-color:red;
-    width: 100%;
-}

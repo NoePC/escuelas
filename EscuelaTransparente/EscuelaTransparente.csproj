@@ -150,6 +150,7 @@
     <Content Include="Images\Mesa_5T_03.png" />
     <Content Include="Images\Mesa_6T_03.png" />
     <Content Include="Images\Mesa_6T_07.png" />
+    <Content Include="Images\SEP-MX.png" />
     <Content Include="Modals\modal_Styles.css" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -175,6 +176,8 @@
     <EmbeddedResource Include="Resources\OpenSans-Regular.ttf" />
     <EmbeddedResource Include="Resources\OpenSans-Semibold.ttf" />
     <EmbeddedResource Include="Resources\OpenSans-SemiboldItalic.ttf" />
+    <None Include="Properties\PublishProfiles\SEPET - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\SEPET - Web Deploy %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\SEPET - Web Deploy.pubxml" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">

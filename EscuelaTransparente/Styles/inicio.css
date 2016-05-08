@@ -21,6 +21,7 @@
     padding-bottom: 60%; /* Height of the footer element */
 }
 
+
 #menu{
     background-color: #32383B;
     width:100%
@@ -167,8 +168,8 @@ ul{
 #quees{
     width:65%;
     position:relative;
-    left:115px;
-    text-align:justify;    
+    left:230px;
+    text-align:justify;       
 }
 
 #doble{
