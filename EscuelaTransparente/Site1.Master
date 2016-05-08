@@ -1,6 +1,5 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="EscuelaTransparente.Site1" %>
+﻿<%@ MasterPageFile="~/Site1.Master" Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="EscuelaTransparente.Site1" %>
 
-<!DOCTYPE html>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">

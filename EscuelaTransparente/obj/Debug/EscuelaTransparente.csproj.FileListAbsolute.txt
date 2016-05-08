@@ -148,3 +148,5 @@ C:\Users\Michard\Downloads\EscuelaTransparente\EscuelaTransparente\EscuelaTransp
 C:\Users\Michard\Downloads\EscuelaTransparente\EscuelaTransparente\EscuelaTransparente\obj\Debug\EscuelaTransparente.csproj.GenerateResource.Cache
 C:\Users\Michard\Downloads\EscuelaTransparente\EscuelaTransparente\EscuelaTransparente\obj\Debug\EscuelaTransparente.dll
 C:\Users\Michard\Downloads\EscuelaTransparente\EscuelaTransparente\EscuelaTransparente\obj\Debug\EscuelaTransparente.pdb
+C:\Users\AMD-A4\Desktop\Escuelas\escuelas\EscuelaTransparente\obj\Debug\EscuelaTransparente.Properties.Resources.resources
+C:\Users\AMD-A4\Desktop\Escuelas\escuelas\EscuelaTransparente\obj\Debug\EscuelaTransparente.csproj.GenerateResource.Cache

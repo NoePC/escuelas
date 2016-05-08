@@ -57,7 +57,7 @@
          <br />        
          <h3 style="margin-left:230px;">¿Qué es la Escuela Transparente?<br /><img src="Images/Mesa_1T_40.png" /></h3>
          <asp:Panel ID="quees" runat="server" CssClass="quees">
-             <asp:Label unat="server">
+             <asp:Label runat="server">
                  Escuela Transparente es un portal de la Secretaría de Educación Pública donde podrás
          ubicar tu escuela y proponer ideas para mejorarla. Escuela Transparente analizará la situación
          del plantel con el objetivo de mejorar tu estancia y educación.
@@ -79,10 +79,7 @@
              </asp:Panel>
          </asp:Panel>         
 
-         <h3 style="margin-left:230px;"><img src="Images/Mesa_2T_03.png" />Busqueda Avanzada<br /><img src="Images/Mesa_1T_40.png" /></h3>
-         
-
-
+         <h3 style="margin-left:230px;"><img src="Images/Mesa_2T_03.png" />Busqueda Avanzada<br /><img src="Images/Mesa_1T_40.png" /></h3>         
 
          <asp:Panel ID="formu" runat="server" CssClass="formu">
              <asp:Panel ID="formulario" runat="server" CssClass="formulario">
