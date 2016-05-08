@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace EscuelaTransparente
 {
-    public partial class Site1 : MasterPage
+    public partial class Site1 : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

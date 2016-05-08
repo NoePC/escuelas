@@ -1,9 +1,11 @@
 ﻿body {
+    width: 100%;
+    height: 100%;
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans';
-    height: 100%;
+    font-family:'Open Sans';
 }
+
 
 #wrapper {
     min-height: 100%;
@@ -19,146 +21,225 @@
     padding-bottom: 60%; /* Height of the footer element */
 }
 
-#footer {
-    width: 100%;
-    height: 20%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    /* background-color:cadetblue; */
+#menu{
+    background-color: #32383B;
+    width:100%
 }
 
-#toolbar {
-    width: 100%;
-    height: 60px;
-    background-color: #393B3D;
-    margin: 0px;
-    padding: 0px;
-}
-
-#redes {
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    margin: 0px;
-    padding: 0px;
-}
-
-#panelFooter {
-    width: 100%;
-    height: 50px;
-    margin: 0px;
-    padding: 0px;
-    font-size: 15px;
-    font-family: 'Berlin Sans FB';
-}
-
-p.groove {
-    border-style: groove;
-    border-width: 1px;
-    text-align: center;
-}
-
-ul {
-    text-align: right;
-}
-
-    ul.centrado {
-        text-align: center;
-        list-style-position: inside;
-        padding: 0;
-        border-left: solid 1px;
-    }
-
-li {
+#lmenu > li{
     text-decoration: none;
-    list-style: none;
-    float: left;
-    color: white;
+    float:left;
+    margin-left: 3%;
+    color:white;
+    font-family: 'Open Sans';
+    list-style:none;
+    list-style-type:none;
+
 }
 
-    li.pie {
-        text-align: center;
-        list-style-position: inside;
-        padding: 2px;
-        border-left: solid 1px;
-        color: white;
-    }
+ul{
+    text-decoration:none;
+}
 
-    li.Circulo {
-        padding: 20px 60px 20px 60px;
-        color: black;
-    }
-
-    li.numCir {
-        padding: 20px 60px 20px 60px;
-        color: black;
-        list-style-type:decimal;
-    }
-
-
-
-    li > a {
-        color: white;
-    }
-
-    li a {
-        display: inline;
-        float: left;
-        margin-right: 30px;
-        text-decoration: none;
-    }
-
-.txtBus {
+#lmenu{
+    width:41%;
+    height:auto;
+    position:relative;
     float: right;
-    border-radius: 7px;
+    bottom: 5px;
+}
+
+#txtMBuscarEscuela {
+    height: 13px;
+    width: 163px;
+    float: right;
+    top: 11px;
+    left: 731px;
+    background-image: url('../Images/Mesa_1T_36.png');
+    background-color: #32383B;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    border: 3px solid;
     border-color: white;
+    border-radius:7px;
+    color:white;
+    text-align:right;
 }
 
-.txtbuscar {
-    margin-left: 500px;
-    height: 60px;
-    text-align: center;
-    font-size: 30px;
+.footer{
+    position:relative;
+    bottom:0px;
+    width:100%;
+}
+
+.top-bar{
+    color:#808080;
+    text-align:center;
+    font-size:10px;
+    border:2px solid #928f8f;
+    border-right:none;
+    border-left:none;   
+}
+
+.img-sep{
+    text-align:center;
+}
+
+.bottom-bar{
+    background-color:#327FB6;
+    width:100%;
+    height:2.5em;
+    color:#fff;
+}
+
+.labels{
+    text-align:center;
+    margin-top:10px;
+    margin: auto;
+    width:67%;
+    height:100%;
+    font-size:13px;
+}
+
+#box{
+    background-color:black;    
+    width:100%;
+    height: 3em;
+    color:white;  
+}
+
+#amenu{
+    width:100%;
+    margin: auto;
+    overflow:hidden;
+}
+
+#left{
+    float:left;
+    margin-left:3em;
+    margin-bottom:10em;
+}
+
+#right{
+    float:right;
+    margin-right:.5em;
+    margin-bottom:10em;
+}
+
+#rightI{
+    float:right;
+    margin-right:4.1em;
+}
+
+#img{
+    text-align:center;
+}
+
+#img2{
+    text-align:center;
+    margin-right: 50px;
+}
+
+#img2 > img{
+    margin-left:50px;
+}
+
+#textos{    
+    margin-left:150px;
+}
+
+#lbl1{
+    margin-left:120px;
+}
+
+#lbl2{
+    margin-left:150px;
+}
+
+#lbl3{
+    margin-left:150px;
+}
+
+#lbl4{
+    margin-left:135px;
+}
+
+#quees{
+    width:65%;
+    position:relative;
+    left:115px;
+    text-align:justify;    
+}
+
+#doble{
+    left:230px;
+    position:relative;    
+    width:72%;
+    height:auto;
+}
+
+#texto{
+    position:absolute;
+    width:50%;
+}
+
+#video{
+    position:relative;
+    width:50%;
+    left:50%;
+}
+
+#doble{
+    left:230px;
+    position:relative;    
+    width:72%;
+    height:auto;
+}
+
+#texto{
+    position:absolute;
+    width:50%;
+}
+
+.txtPropiedades{
+    width:300px;
+    height:22px;
+    border:solid 1px;
+}
+
+#formu{
+    width:50%;
+    text-align:left;
+    margin-left:400px;
+}
+
+#formulario{
+    width:50%;
+    
+    position:relative;
+}
+
+#checks{
+    width:50%;
+    position: absolute;
+        
+    margin-left:130%;
+    top:60px;   
+}
+
+#resultados {
+    width: 40%;
+    height:10%;
+    float: left;    
+    margin-left:220px;
+}
+
+#ordenar{
+    width:40%;
+    height:10%;
+    float:right;        
 }
 
 
-.imgbuscar {
-    width: 64px;
-    height: 52px;
-}
 
-.btnbusavan {
-    border-radius: 7px;
-    color: black;
-    width: 300px;
-    height: 50px;
-    margin-left: 830px;
-    background-color: white;
-    border-color: black;
-}
 
-#divtabla {
-}
-
-.txtcontent {
-    background-color: red;
-    width: 100%;
-}
-
-.imgSEP {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 120px;
-    width: 280px;
-}
-
-#ligasFooter {
-    background-color: #0c89cc;
-    width: 100%;
-    text-align: center;
-    font-family: Cambria;
-    width: 100%;
-    height: 60px;
-}

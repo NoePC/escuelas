@@ -13,21 +13,48 @@ namespace EscuelaTransparente {
     public partial class Default {
         
         /// <summary>
-        /// txtEscuela control.
+        /// CheckBoxList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEscuela;
+        protected global::System.Web.UI.WebControls.RadioButtonList CheckBoxList1;
         
         /// <summary>
-        /// cbestado control.
+        /// CheckBoxList2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cbestado;
+        protected global::System.Web.UI.WebControls.RadioButtonList CheckBoxList2;
+        
+        /// <summary>
+        /// imgbutt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink imgbutt;
+        
+        /// <summary>
+        /// lblResultados control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblResultados;
+        
+        /// <summary>
+        /// filtro control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList filtro;
     }
 }
