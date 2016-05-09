@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
+using EscuelaTransparente.Controllers;
 
 namespace EscuelaTransparente
 {
@@ -24,16 +25,9 @@ namespace EscuelaTransparente
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            SqlConnection conecta = new SqlConnection(DatabaseConnectionString);
-            SqlCommand comando = new SqlCommand("select * from PerfilEscuela", conecta);
-            SqlDataAdapter adaptador = new SqlDataAdapter(comando);
-
+            string query2 = "select * from PerfilEscuela";
             DataTable datos = new DataTable();
-            datos.Locale = System.Globalization.CultureInfo.InvariantCulture;
 
-            //llenamo?
-
-            adaptador.Fill(datos);
             GridView1.DataSource = datos;
             GridView1.DataBind();
            

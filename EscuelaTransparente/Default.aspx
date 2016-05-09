@@ -100,20 +100,24 @@
                  <asp:TextBox runat="server" placeholder=" Ej: Escuela Primaria Benito Juarez" CssClass="txtPropiedades"></asp:TextBox>                 
                  <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Pages/BusquedaA.aspx" ImageUrl="~/Images/Mesa_2T_11.png"></asp:HyperLink>
                  <h3>Estado</h3>
-                 <asp:DropDownList runat="server" CssClass="txtPropiedades" ID="ddlEstado">
+
+                 <asp:DropDownList runat="server" CssClass="txtPropiedades" ID="ddlEstado" OnSelectedIndexChanged="ddlEstado_SelectedIndexChanged" AutoPostBack="True" >
                     <asp:ListItem Text="Aguascalientes" />
                     <asp:ListItem Text="Baja California" />                        
                  </asp:DropDownList>
+
                  <h3>Municipio</h3>
-                 <asp:DropDownList runat="server" CssClass="txtPropiedades" ID="ddlMunicipio">
+                 <asp:DropDownList runat="server" CssClass="txtPropiedades" ID="ddlMunicipio" OnSelectedIndexChanged="ddlMunicipio_SelectedIndexChanged" AutoPostBack="True" >
                     <asp:ListItem Text="Aguascalientes" />
                     <asp:ListItem Text="Baja California" />                    
                  </asp:DropDownList>
+
                  <h3>Localidad</h3>
-                 <asp:DropDownList runat="server" CssClass="txtPropiedades" ID="Localidad">
+                 <asp:DropDownList runat="server" CssClass="txtPropiedades" ID="Localidad" >
                     <asp:ListItem Text="Aguascalientes" />
                     <asp:ListItem Text="Baja California" />                  
                 </asp:DropDownList>
+
              </asp:Panel>
          </asp:Panel>         
          
@@ -138,24 +142,12 @@
 
          <div class="Table-Results">
                 <asp:Table ID="tblResults" runat="server" Font-Size="X-Large" CellPadding="20" CellSpacing="5">
-                    <asp:TableHeaderRow runat="server" ForeColor="White" Font-Bold="true" BackColor="#0c89cc">
-                        <asp:TableHeaderCell Width="250" HorizontalAlign="Left">Escuelas</asp:TableHeaderCell>
-                        <asp:TableHeaderCell Width="100">Ubicación</asp:TableHeaderCell>
-                        <asp:TableHeaderCell Width="100">Turno</asp:TableHeaderCell>
-                        <asp:TableHeaderCell Width="200">Nivel escolar</asp:TableHeaderCell>
+                    
+                    <asp:TableHeaderRow ID="headerTable" runat="server" ForeColor="White" Font-Bold="true" BackColor="#0c89cc">
+                        
                     </asp:TableHeaderRow>
-                    <asp:TableRow runat="server" BackColor="#F0F0EF">
-                        <asp:TableCell ID="tcMdc">Niños de México</asp:TableCell>
-                        <asp:TableCell ID="tcCantidadMdc">Jalpa De Mendez, Tabasco</asp:TableCell>
-                        <asp:TableCell ID="tcTurno">Vespertino</asp:TableCell>
-                        <asp:TableCell ID="tcNivelEscolar">Primaria</asp:TableCell>
-                    </asp:TableRow> 
-                    <asp:TableRow runat="server" BackColor="#F0F0EF">
-                        <asp:TableCell ID="tcMdc2">Lázaro Cárdenas</asp:TableCell>
-                        <asp:TableCell ID="tcCantidadMdc2">Chunchucmil, Yucatán</asp:TableCell>
-                        <asp:TableCell ID="tcTurno2">Vespertino</asp:TableCell>
-                        <asp:TableCell ID="tcNivelEscolar2">Secundaria</asp:TableCell>
-                    </asp:TableRow>                   
+                    
+                               
                 </asp:Table>
             </div>
 
