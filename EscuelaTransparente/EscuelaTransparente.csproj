@@ -197,6 +197,7 @@
     <Content Include="Styles\inicio.css" />
     <Content Include="Styles\menu.css" />
     <Content Include="Styles\Propuesta_Escuela_v8.css" />
+    <Content Include="TestConnection.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -251,6 +252,13 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TestConnection.aspx.cs">
+      <DependentUpon>TestConnection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestConnection.aspx.designer.cs">
+      <DependentUpon>TestConnection.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
